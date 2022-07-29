@@ -17,7 +17,7 @@ Was able to use concepts of css like selectors which are used to target a partic
 1.5 hrs
 
 ## Application Link
-
+https://law-justice.netlify.app/
 ### Techonology used:
 1. HTML
 2. CSS
