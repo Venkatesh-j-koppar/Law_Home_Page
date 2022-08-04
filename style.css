@@ -21,6 +21,10 @@ body{
     background-color: #261f07;
 }
 
+.img-menu{
+    display: none;
+}
+
 .navbar-container div img{
     width: 120px;
     height: 35px;
@@ -123,18 +127,18 @@ img{
     height: 20px;
 }
 
-@media screen and (max-width:1300px) {
-    .grow-list{
-        position: absolute;
-        left:30%;
-    }
-    
-}
-
 @media screen and (max-width:1050px) {
     .grow-list{
         position: absolute;
         left:20%;
+    }
+    
+}
+
+@media screen and (max-width:1400px) {
+    .grow-list{
+        position: absolute;
+        left:40%;
     }
 
     .nav-button{
@@ -178,4 +182,120 @@ img{
     
     
     
+}
+
+@media screen and (max-width:950px) {
+    .grow-list{
+        position: absolute;
+        left:30%;
+    }
+}
+
+@media screen and (max-width:800px){
+
+    .grow-list{
+        position: absolute;
+        left:15%;
+        margin: 10px;
+    }
+
+    .nav-button{
+        width:100px;
+        height:45px;
+        border-radius: 10px;
+        color: #928542;
+        background-color: #261f07;
+    
+        border: solid #928542;
+        font-family: "Poppins";
+    
+    }
+    .navbar-container div img{
+        width: 70px;
+        height: 35px;
+    }
+
+
+    .list-item{
+       
+        margin:10px;
+    
+    }
+
+    .main-left>h1{
+        color: #fff;
+        font-size: 35px;
+        font-family: "Poppins";
+        text-align: center;
+    }
+
+    .main-right{
+        width:30vw;
+        margin-right: 10vw;
+        font-family: "Poppins";
+        color: #fff;
+        margin-top: 25px;
+    
+    }
+    
+    
+    
+}
+
+@media screen and (max-width:700px) {
+    body{
+        border: solid red;
+    }
+
+    .grow-list{
+    display: none;
+    }
+
+    .img-menu{
+        display: inherit;
+    }
+
+    .nav-button{
+        width:70px;
+        height:45px;
+        border-radius: 10px;
+        color: #928542;
+        background-color: #261f07;
+    
+        border: solid #928542;
+        font-family: "Poppins";
+        display: none;
+    
+    }
+
+    .main-right>p{
+ 
+        font-size: 12px;
+    }
+
+    .main-bottom{
+        justify-content: center;
+    }
+
+    .main-bottom-svg-left{
+        margin-top: 10px;
+        height: 40px;
+    }
+
+    .main-bottom-svg-left>img{
+        padding: 15px;
+        
+        height: 15px;
+    }
+
+    .main-bottom-svg-right{
+        margin-top: 10px;
+        height: 40px;
+    }
+
+    .main-bottom-svg-right>img{
+        padding: 15px;
+        
+        height: 15px;
+    }
 }
